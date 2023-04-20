@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harsh's Fitness</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra&family=La+Belle+Aurore&family=Nerko+One&family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        color: rgb(126, 0, 0);
+        margin: 0;
+        background: url("img/bg.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      header {
+        margin-top:0;
+        background-color: #56567e;
+        top:0;
+        position:sticky;
+      }
+
+      .left {
+        font-family: "Alkatra", cursive;
+        /* border: 2px solid red; */
+
+        display: inline-block;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+      }
+      .left div:hover {
+        color: rgb(7, 7, 7);
+      }
+      .left img {
+        width: 44px;
+        /* filter:opacity(23%); */
+        /* position:relative; */
+        margin: 5px 20px;
+        margin-top: 10px;
+        margin-right: 5px;
+      }
+      .left div {
+        font-size: 15px;
+        float: right;
+        line-height: 80px;
+        margin-left: 0px;
+        padding-left: 0px;
+      }
+
+      .mid {
+        font-family: "Alkatra", cursive;
+        /* border: 2px solid green; */
+        display: block;
+        width: 33%;
+        margin: 10px auto;
+      }
+      .right {
+        font-family: "Alkatra", cursive;
+        /* border: 2px solid blue; */
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 18px;
+      }
+
+      .navbar {
+        display: inline-block;
+      }
+
+      .navbar li {
+        display: inline-block;
+        padding: 0px 10px;
+        list-style: none;
+      }
+
+      a {
+        color: rgb(220, 228, 245);
+        text-decoration: none;
+        font-size: 18px;
+      }
+
+      .navbar li a:hover,
+      .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(0, 0, 0);
+      }
+
+      .btn {
+        font-family: "Alkatra", cursive;
+        border: 2px solid rgb(146, 143, 143);
+        background-color: rgb(90, 87, 87);
+        border-radius: 4px;
+        color: white;
+        margin: 4px 16px;
+        padding: 4px 6px;
+      }
+
+      .btn:hover {
+        background-color: rgb(2, 2, 2);
+        cursor: pointer;
+      }
+      .container {
+        font-family: "Alkatra", cursive;
+        border: 2px solid white;
+        border-radius: 7px;
+        width: 40%;
+        margin: 154px 87px;
+        padding-bottom:30px;
+        text-align: center;
+      }
+
+      .form-grp input {
+        font-family: "Alkatra", cursive;
+        border-radius: 7px;
+        width: 60%;
+        margin: 2px 2px;
+        text-align: center;
+        margin: 3px 2px;
+      }
+      #sbmt{
+        width:60%;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left">
+        <a href="index.html">
+          <img src="img/logo.jpg" alt="logo" />
+          <div>Harsh's Fitness</div>
+        </a>
+      </div>
+
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="about.html" target="_blank">About us</a></li>
+          <li><a href="#">fintess calculator</a></li>
+          <li><a href="#">contact us</a></li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <button class="btn">Call us</button>
+        <button class="btn">Email us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Fill the form to Join</h1>
+      <form action="noaction.php">
+        <div class="form-grp">
+          <input type="text" placeholder="Enter Your Name" />
+        </div>
+        <div class="form-grp">
+          <input type="text" placeholder="Enter Your Age" />
+        </div>
+        <div class="form-grp">
+          <input type="text" placeholder="Enter Your Gender" />
+        </div>
+        <div class="form-grp">
+          <input type="text" placeholder="Enter Your Location" />
+        </div>
+        <div class="form-grp">
+          <input type="text" placeholder="Enter Your phone no." />
+        </div>
+        <div class="form-grp">
+          <input type="text" placeholder="Enter Your Email" />
+        </div>
+        <button class="btn" id="sbmt">submit</button>
+      </form>
+    </div>
+  </body>
+</html>

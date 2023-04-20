@@ -1,0 +1,111 @@
+body {
+    color: white;
+    margin: 0;
+    background: url("img/bg.jpg");
+    background-size: 100%;
+  }
+  header {
+    background-color: #56567e;
+  }
+
+  .left {
+    font-family: "Alkatra", cursive;
+    /* border: 2px solid red; */
+
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  .left div:hover {
+    color: rgb(7, 7, 7);
+  }
+  .left img {
+    width: 44px;
+    /* filter:opacity(23%); */
+    /* position:relative; */
+    margin: 5px 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  .left div {
+    font-size: 15px;
+    float: right;
+    line-height: 80px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .mid {
+    font-family: "Alkatra", cursive;
+    /* border: 2px solid green; */
+    display: block;
+    width: 33%;
+    margin: 10px auto;
+  }
+  .right {
+    font-family: "Alkatra", cursive;
+    /* border: 2px solid blue; */
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 18px;
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  .navbar li {
+    display: inline-block;
+    padding: 0px 10px;
+    list-style: none;
+  }
+
+  a {
+    color: rgb(220, 228, 245);
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .navbar li a:hover,
+  .navbar li a.active {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+  }
+
+  .btn {
+    font-family: "Alkatra", cursive;
+    border: 2px solid rgb(146, 143, 143);
+    background-color: rgb(90, 87, 87);
+    border-radius: 4px;
+    color: white;
+    margin: 4px 16px;
+    padding: 4px 6px;
+  }
+
+  .btn:hover {
+    background-color: rgb(2, 2, 2);
+    cursor: pointer;
+  }
+  .container {
+    font-family: "Alkatra", cursive;
+    border: 2px solid white;
+    border-radius: 7px;
+    width: 40%;
+    margin: 154px 87px;
+    padding-bottom:30px;
+    text-align: center;
+  }
+
+  .form-grp input {
+    font-family: "Alkatra", cursive;
+    border-radius: 7px;
+    width: 60%;
+    margin: 2px 2px;
+    text-align: center;
+    margin: 3px 2px;
+  }
+  #sbmt{
+    width:60%;
+  }
